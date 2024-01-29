@@ -1,0 +1,139 @@
+/* ########### FONTS ############ */
+@font-face {
+  font-family: "";
+  src: url("../assets/fonts/");
+}
+/* ############ BODY ############  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  background-color: grey;
+}
+
+/* ########### HEADER ########### */
+.section1 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  gap: 100px;
+}
+.section1 .headerL {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.section1 .headerL img {
+  height: 135px;
+  width: 150px;
+}
+.section1 .headerR {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+}
+.section1 .headerR nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.section1 .headerR a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+}
+.section1 .headerR > nav > .contacteNous {
+  border-radius: 100px;
+  background-color: rgb(0, 0, 0);
+}
+.section1 .headerR > nav > a:hover {
+  border-radius: 100px;
+  background-color: rgb(239, 63, 5);
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+/* ############ MAIN ############ */
+ *
+ *
+ *  // .section1 
+ *  //     width: 100%
+ *  //     height: 200px
+ *  //     display: flex
+ *  //     justify-content: center
+ *  //     align-items: center
+ *  //     font-size: 15px
+ *  //     gap: 100px;
+ *  //     font-weight: bold
+ *  //     font-family: Arial, Helvetica, sans-serif
+ *  //         .headerL 
+ *  //             width: 35%
+ *  //             height: 100%
+ *  //             display: flex
+ *  //             justify-content: right
+ *  //             align-items: center
+ *  //         .headerL img 
+ *  //             height: 195px
+ *  //             width: 180px
+ *  //         .headerR 
+ *  //             width: 65%
+ *  //             height: 100%
+ *  //             display: flex
+ *  //             justify-content: start
+ *  //             align-items: center
+ *  //             color: white
+ *  //         .headerR nav 
+ *  //             display: flex
+ *  //             justify-content: start
+ *  //             align-items: center
+ *  //             gap: 10px
+ *  //         .headerR a
+ *  //             color: white
+ *  //             text-decoration: none
+ *  //             padding: 8px 16px 8px 16px
+ *  //             font-size: 14px
+ *  //         .headerR>nav>.contacteNous 
+ *  //             border-radius: 100px
+ *  //             background-color: rgb(239, 83, 5)
+ *  //         .headerR>nav>a:hover
+ *  //             border-radius: 100px
+ *  //             background-color: rgb(0, 0, 0) */
+/* ######### RESPONSIVE ######### */
+@media (max-width: 576px) {
+  body {
+    padding: 0%;
+    margin: 0%;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* ### SECTION 1 ### */
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+/* ########### FOOTER ########### */
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+
+/*# sourceMappingURL=app.css.map */
