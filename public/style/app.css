@@ -1,46 +1,325 @@
 /* ########### FONTS ############ */
 
-
 /* ############ BODY ############  */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  background: rgb(255, 255, 255);
 }
 
 body {
-    background-color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+  width: 99vw;
+  /* background-image: url(./../src/image/images/banner-overlay-img.png); */
+  background: rgb(224, 0, 185);
+  background: linear-gradient(
+    119deg,
+    rgba(224, 0, 185, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
-/* ########### HEADER ########### */
+.section1 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  gap: 50px;
+}
 
+.headerL {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.headerL img {
+  height: 135px;
+  width: 150px;
+}
+
+.headerR {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#langue {
+  color: rgb(200, 0, 255);
+}
+
+.headerR nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerR a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+  background-color: rgb(191, 0, 255);
+}
+
+.headerR > nav > .contactezNous {
+  border-radius: 100px;
+  background-color: rgb(140, 0, 255);
+}
+
+.headerR > nav > a:hover {
+  border-radius: 100px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 0, 255);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  margin-top: 50px;
+
+  /* margin-bottom: 50px; */
+}
+
+.bannerLeft {
+  width: 30%;
+  color: rgb(230, 0, 255);
+}
+
+.bannerTitle {
+  font-size: 33px;
+  line-height: 50px;
+}
+
+.bannerText {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 15px;
+}
+
+.bannerButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.bannerButtons > button {
+  border: none;
+  border-radius: 100px;
+  padding: 10px 18px 10px 18px;
+  font-size: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+/* END OF CHAGES  */
+
+.bannerButtons > .button1:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(208, 0, 255);
+  font-weight: bold;
+}
+
+.bannerButtons > .button1 {
+  background-color: rgb(140, 0, 255);
+}
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+nav a {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+nav a:active {
+  transform: translateY(-1px);
+}
+
+.bannerImage {
+  background-image: url(./../assets/image/bannerImg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.bannerRight {
+  width: 30%;
+  aspect-ratio: 1/1;
+}
+
+/* section3 card */
+
+.card-body > button {
+  border: none;
+  border-radius: 100px;
+  padding: 10px 18px 10px 18px;
+  font-size: 10px;
+  color: rgb(179, 0, 255);
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.card-body > button:hover {
+  border: none;
+  border-radius: 100px;
+  padding: 10px 18px 10px 18px;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  font-weight: bold;
+  background-color: rgb(163, 16, 163);
+}
+/* ########### HEADER ########### */
 
 /* ############ MAIN ############ */
 
-
 /* ########### FOOTER ########### */
-
 
 /* ######### RESPONSIVE ######### */
 /* ### SMARTPHONE ### */
 @media (max-width: 576px) {
-
 }
 
 /* ### TABLET ### */
 @media (min-width: 577px) and (max-width: 768px) {
-
 }
 
 /* ### DESKTOP ### */
 @media (min-width: 769px) and (max-width: 1024px) {
-
 }
 
 /* ### BIG DESKTOP ### */
 @media (min-width: 1025px) {
-
 }
+
+/* c'estquoi */
+
+.molengeekCestQuoi {
+  height: 620px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerCestQuoi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+.containerCestQuoi span {
+  color: #bb00ff;
+}
+.containerCestQuoi2 {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  gap: 10%;
+}
+.quoi1 {
+  border: #000 solid 3px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 75px;
+  /* border-radius: 5%; */
+  background: rgb(78, 0, 65);
+}
+.quoi1 img {
+  width: 20%;
+  background: transparent;
+  filter: brightness(100);
+}
+.quoi1 h3 {
+  width: 90%;
+  background: transparent;
+  color: #ffffff;
+  text-align: justify;
+  font-weight: normal;
+}
+.quoi2 {
+  border: #000 solid 3px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border-radius: 5%; */
+  background: rgb(66, 0, 47);
+}
+.quoi2 img {
+  width: 20%;
+  background: transparent;
+  filter: brightness();
+}
+.quoi2 h3 {
+  width: 90%;
+  background: transparent;
+  color: #ffffff;
+  text-align: justify;
+  font-weight: normal;
+}
+

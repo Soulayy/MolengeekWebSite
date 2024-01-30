@@ -1,0 +1,255 @@
+@media (max-width: 576px){
+    body {
+        padding: 0%;
+        margin: 0%;
+        width: 100vw;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+}
+        
+.section1 {
+    gap: 0%;
+    }
+
+.headerL {
+    width: 200px;
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.headerR {
+    padding-top: 70%;
+}
+.headerR nav a {
+    font-size: small;
+    width: fit-content;
+}
+
+    @media (min-width: 993px) and (max-width: 992px){
+
+    }
+    .headerL img {
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .headerR nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+} 
+
+@media (min-width: 575px) and (max-width: 768px){
+    body {
+        padding: 0%;
+        margin: 0%;
+        width: 100vw;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        gap: 0%;
+
+    }
+
+    .headerL {
+        width: 30%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+
+    .headerL img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .headerR {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 90px;
+    }
+
+    .headerR nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+/* banner */
+
+@media (max-width: 576px){
+    .banner{
+        flex-direction: column-reverse;
+        /* margin-bottom: 95px; */
+        /* margin-top: 120px; */
+        padding-top: 50%;
+        padding-bottom: 20%;
+    }
+
+    .bannerRight{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .bannerImage{
+        width: 500px;
+    }
+
+    .bannerTitle{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+    .bannerLeft{
+        width: 65%;
+        height: 200px;
+    }
+
+    .bannerText{
+        text-align: center;
+        margin-bottom: 10px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 120%;
+    }
+
+    .bannerText>br{
+        display: none;
+    }
+
+    .bannerButtons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bannerButtons>button{
+        width: 40%;
+    }
+}
+
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+
+}
+
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px) {
+
+
+}
+
+/* c'est quoi molengeek */
+
+@media (max-width: 576px) {
+.molengeekCestQuoi {
+    height: 1400px;
+}
+
+    .containerCestQuoi2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .quoi1, .quoi2 {
+        width: 90%;
+    }
+    
+    .quoi1 img, .quoi2 img {
+        padding-top: 15%;
+        
+    }
+    }
+    
+    
+    /* ### TABLET ### */
+    @media (min-width: 577px) and (max-width: 768px) {
+    }
+    
+    /* ### DESKTOP ### */
+    @media (min-width: 769px) and (max-width: 1024px) {
+    }
+    
+    /* ### BIG DESKTOP ### */
+    @media (min-width: 1025px) {
+    }
+    
+
+
+
+
+
+
+
+
+
+/* CARD */
+
+@media (max-width: 576px) {
+.cardAll{
+    flex-direction: column;
+    padding-top: 700px;
+}
+.card {
+    width: 40%;
+}
+}
+
+
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+
+}
+
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px) {
+
+
+}

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="stylesheet" href="./public/style/responsive.css">
 
 </head>
 <body>
@@ -18,7 +19,7 @@
     <header>
         <div class="section1">
             <div class="headerL">
-                <img src="./public/src/image/images/logo-img.png" alt="">
+                <img src="" alt="">
             </div>
 
             <div class="headerR">
@@ -30,28 +31,92 @@
                     <a href="">Presse</a>
                     <a href="">Jobs</a>
                     <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Language
+                        <button id="langue"  class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Language
                         <span class="caret"></span></button>
                         <ul class="dropdown-menu">
                           <li><a href="#">English</a></li>
                         </ul>
                       </div>
-                    <a class="contactezNous" href="">Formulaire de contacte</a>
+                    <a class="contactezNous" href="">Formulaire <br> de contact</a>
                 </nav>
             </div>
         </div>
 
+        <div class="banner">
+            <div class="bannerLeft">
+                <h1 class="bannerTitle">#DigitalForAll #Formations</h1>
+                <p class="bannerText">Explorez le futur de la technologie <br><br> chez Molengeek</p>
+                <div class="bannerButtons">
+                    <button class="button1">Consulter</button>
+                    <!-- <button class="button2">Contact Us</button> -->
+                </div>
+            </div>
+
+            <div class="bannerRight">
+                <div class="bannerImage"></div>
+            </div>
+        </div>
     </header>
 
     <!-- ########### MAIN ########### -->
     <main>
-        <!-- ###  ### -->
-        <!-- <div class="container1">
-          <div class="banner">
+        <section class="molengeekCestQuoi">
+            <div class="containerCestQuoi">
+                <h1>C'est quoi etre chez <span>#MOLENGEEK</span><span> ?</span></h1>
+                <div class="containerCestQuoi2">
+                    <div class="quoi1">
+                        <img src="./public/assets/image/pplIcone.webp" alt="" srcset="">
+                        <h3>
+                            MolenGeek est situé au cœur de Molenbeek à Bruxelles. 
+                            Notre mission est de rendre le secteur des technologies 
+                            accessible à toute personne désirant surfer sur la vague du digital, 
+                            peu importe les origines ou le niveau de formation.
+                        </h3>
+                    </div>
+                    <div class="quoi2">
+                        <img src="./public/assets/image/portable.png" alt="" srcset="">
+                        <br><br>
+                        <h3>
+                            Nous sommes composés de trois piliers principaux : 
+                            un espace de coworking , des programmes de formation 
+                            à long et court terme  et des évènements dynamiques, 
+                            tels que des Hackathons, des Geektalks, etc.
+                            </h3>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="cardAll">
             
-          </div>
-        </div>
-           -->
+            <div class="card" style="width: 18rem;">
+                <img src="./public/assets/image/goldorak.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-3 justify-content-center align-items-center">
+                  <h5 class="card-title">Coworking</h5>
+                  <button> Consulter </button>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./public/assets/image/formation.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-3 justify-content-center align-items-center">
+                  <h5 class="card-title">Formations</h5>
+                  <button> Consulter </button>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./public/assets/image/agandaA.jpg" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column gap-3 justify-content-center align-items-center">
+                  <h5 class="card-title">Agenda</h5>
+                  <button> Consulter </button>
+
+                </div>
+            </div>
+
+            
+        </section>
+          
     </main>
     
 

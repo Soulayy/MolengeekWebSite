@@ -5,4 +5,3 @@ let molengeek = data.molengeekLogo
 let firstimg = document.querySelectorAll("img")[0]
 
 firstimg.src = molengeek
-
