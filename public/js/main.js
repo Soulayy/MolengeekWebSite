@@ -3,7 +3,9 @@ import data from './../json/molengeek.json' assert { type: "json" }
 let molengeek = data.molengeekLogo
 
 let firstimg = document.querySelectorAll("img")[0]
-
+let secondimg = document.querySelectorAll(".fResaux")[0].querySelector("img")
+secondimg.src = molengeek
+console.log(secondimg);
 firstimg.src = molengeek
 
 let bxformationimg = data.partenaires.bxFormation.logo
@@ -69,9 +71,21 @@ futurEvent.forEach(element => {
 });
 
 let molengeekInfoName = data.molengeekInfo.name
-let infoNom = document.createElement("div")
+let molengeekAdresse = data.molengeekInfo.address
+let molengeekPhone = data.molengeekInfo.phone
+let molengeekeMail = data.molengeekInfo.email
+let molengeektva = data.molengeekInfo.tva
 
-let h1 = document.createElement("h1")
+let h1 = document.querySelector(".infolieuText").children[0]
+h1.innerHTML = molengeekInfoName
+let h12 = document.querySelector(".infolieuText").children[1]
+h12.innerHTML = molengeekAdresse
+let h13 = document.querySelector(".infolieuText").children[2]
+h13.innerHTML = molengeekPhone
+let h14 = document.querySelector(".infolieuText").children[3]
+h14.innerHTML = molengeekeMail
+let h15 = document.querySelector(".infolieuText").children[4]
+h15.innerHTML = molengeektva
 
-let divInfoLieu = document.querySelectorAll(".infolieuText")[0]
+
 

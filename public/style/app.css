@@ -286,7 +286,7 @@ nav a:active {
   flex-direction: column;
   gap: 75px;
   /* border-radius: 5%; */
-  background: rgb(78, 0, 65);
+  background:#bb00ff
 }
 .quoi1 img {
   width: 20%;
@@ -308,7 +308,7 @@ nav a:active {
   align-items: center;
   flex-direction: column;
   /* border-radius: 5%; */
-  background: rgb(66, 0, 47);
+  background:#bb00ff
 }
 .quoi2 img {
   width: 20%;
@@ -503,20 +503,21 @@ nav a:active {
 
  .carteGOOGLE {
   height: 600px;
-  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
+  
  }
 
 .carte {
   height: 90%;
   width: 68%;
-  background-color: blue;
+  border: 5px solid purple;
 }
 .carte iframe {
   width: 100%;
   height: 100%;
+  
 }
 .infolieu {
   height: 90%;
@@ -524,9 +525,127 @@ nav a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 5px solid purple;
+  background-color: purple;
+
 }
 .infolieuText {
-  width: 80%;
-  height: 80%;
-  
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  flex-direction: column;
+  background-color: purple;
+
+}
+
+.infolieuText h1 {
+  font-size: xx-large;
+  line-height: 60px;
+  background-color: purple;
+  color: white;
+}
+
+
+/* newlester */
+
+.newsletter {
+  height: 400px;
+  width: 100%;
+}
+
+.newsletterLogo {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.newsletterLogo img {
+  height: 90%;
+  background-color: transparent;
+}
+
+.newsletterText {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletterInput {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+
+.newsletterInput input {
+  width: 30%;
+  height: 40%;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.newsletterInput button{
+background-color: #bb00ff;
+}
+
+/* FOOTER */
+
+footer {
+  height: 500px;
+}
+
+.footer {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+
+.fResaux {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logoFooter {
+  height: 90%;
+  background-color: transparent;
+}
+.fLogo {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.fLogo img {
+  background-color: transparent;
+}
+
+.copyright {
+  height: 30%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+}
+
+.copyright h1 {
+  background-color: purple;
+  color: white;
+}
+.copyright span {
+  font-size: small;
+  background-color: purple;
+  color: white;
+
 }
