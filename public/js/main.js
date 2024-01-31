@@ -5,7 +5,6 @@ let molengeek = data.molengeekLogo
 let firstimg = document.querySelectorAll("img")[0]
 let secondimg = document.querySelectorAll(".fResaux")[0].querySelector("img")
 secondimg.src = molengeek
-console.log(secondimg);
 firstimg.src = molengeek
 
 let bxformationimg = data.partenaires.bxFormation.logo

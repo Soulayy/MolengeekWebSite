@@ -61,6 +61,7 @@
     /* flex-direction: column; */
     flex-wrap: wrap;
     gap: 0%;
+    margin-bottom: 150px;
   }
 
   .headerL {
@@ -157,6 +158,13 @@
 
 /* ### TABLET ### */
 @media (min-width: 577px) and (max-width: 768px) {
+  .bannerText {
+    text-align: center;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    line-height: 90%;
+  }
 }
 
 /* ### DESKTOP ### */
@@ -193,6 +201,25 @@
 
 /* ### TABLET ### */
 @media (min-width: 577px) and (max-width: 768px) {
+  .molengeekCestQuoi {
+    height: 1000px;
+  }
+
+  .containerCestQuoi2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quoi1,
+  .quoi2 {
+    width: 90%;
+  }
+
+  .quoi1 img,
+  .quoi2 img {
+    padding-top: 5%;
+  }
 }
 
 /* ### DESKTOP ### */
@@ -218,6 +245,14 @@
 
 /* ### TABLET ### */
 @media (min-width: 577px) and (max-width: 768px) {
+  .cardAll {
+    flex-direction: column;
+    padding-top: 700px;
+    padding-bottom: 700px;
+  }
+  .card {
+    width: 40%;
+  }
 }
 
 /* ### DESKTOP ### */
@@ -231,6 +266,9 @@
 /*CAROUSEL*/
 
 @media (max-width: 576px) {
+  .slider {
+    width: 80%;
+  }
   .slide img {
     width: 40%;
     height: 70%;
@@ -241,7 +279,18 @@
 }
 /* ### TABLET ### */
 @media (min-width: 577px) and (max-width: 768px) {
+  .slider {
+    width: 80%;
+  }
+  .slide img {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 
 /* ### DESKTOP ### */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -291,6 +340,40 @@
 }
 /* ### TABLET ### */
 @media (min-width: 577px) and (max-width: 768px) {
+  .evenementAvenir {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+  .containerEvent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxinfo {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dateinfo {
+    width: 30%;
+    font-size: 17px;
+    text-align: center;
+  }
+  .titleinfo {
+    width: 70%;
+    font-size: 17px;
+    background-color: blueviolet;
+    text-align: center;
+  }
 }
 
 /* ### DESKTOP ### */
@@ -329,4 +412,127 @@ font-size: 50%;
 
 /* ### BIG DESKTOP ### */
 @media (min-width: 1025px) {
+}
+
+
+/*carteGOOGLE*/
+
+
+
+@media (max-width: 576px) {
+  .carteGOOGLE {
+    padding-top: 150px;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .carte {
+    width: 80%;
+    height: 100%;
+  }
+  .infolieu {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .infolieu h1{
+    font-size: smaller;
+  }
+}
+
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+  .carteGOOGLE {
+    padding-top: 150px;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .carte {
+    width: 80%;
+    height: 100%;
+  }
+  .infolieu {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .infolieu h1{
+    font-size: smaller;
+  }
+}
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px) {
+}
+
+
+/* newsletter */
+
+
+@media (max-width: 576px) {
+  .newsletterInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .newsletterInput input {
+    width: 80%;
+  }
+
+
+  .newsletterInput button{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    font-size: smaller;
+  }
+
+}
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+  .newsletterInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .newsletterInput input {
+    width: 80%;
+  }
+
+
+  .newsletterInput button{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    font-size: smaller;
+  }
+}
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px) {
+  
+}
+
+@media (max-width: 576px) {
+
+/* ### TABLET ### */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* ### DESKTOP ### */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* ### BIG DESKTOP ### */
+@media (min-width: 1025px) {
+}
 }
