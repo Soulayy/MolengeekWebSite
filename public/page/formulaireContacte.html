@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./../../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./../css/app.css">
-    <link rel="stylesheet" href="./../style/responsive.css">
-    <link rel="stylesheet" href="./../style/coworking.css">
-    <title>Coworking</title>
+    <link rel="stylesheet" href="./../style/resposiveFor.css">
+    <link rel="stylesheet" href="./../style/formation.css">
+    <link rel="stylesheet" href="./../style/contact.css">
+    <title>formation</title>
 </head>
 <body>
     <header>
@@ -22,7 +23,7 @@
             <div class="headerR">
                 <nav>
                     <a href="./../../index.html">Acceuil</a>
-                    <a href="./formation.html">formation</a>
+                    <a href="./cowork.html">Coworking</a>
                     <a href="">Agenda</a>
                     <a href="">A Propos</a>
                     <a href="">Presse</a>
@@ -40,33 +41,20 @@
         </div>
     </header>
     <main>
-        <section class="coworking">
-            <h1><span>#</span>COWORKING</h1>
-            <div class="coworkimg">
-                <img src="./../assets/image/cowork.jpg" alt="" srcset="">
-            </div>
-        </section>
-        <section class="avantage">
-            <section class="containerAvantage">
-                <div class="avant">
-                    <h1>Networking Facilité : Les espaces de coworking favorisent les interactions informelles, offrant ainsi des opportunités faciles de réseautage avec d'autres professionnels partageant le même espace.</h1>
-                    <h1>Flexibilité Horaire : Permet aux travailleurs de choisir leurs propres horaires, favorisant ainsi une flexibilité qui peut s'adapter aux préférences individuelles.</h1>
-                </div>
-                <div class="aVimg">
-                    <img src="./../assets/image/logocowork.png" alt="" srcset="">
-                </div>
-                <div class="avant">
-                    <h1>Infrastructure Inclusive : Élimine la nécessité d'investir dans des installations et équipements de bureau, car les espaces de coworking fournissent souvent des services et des infrastructures partagés.</h1>
-                    <h1>Ambiance Motivante : Crée un environnement de travail dynamique et inspirant, propice à la productivité et à la créativité, en contrastant avec des bureaux traditionnels.</h1>
 
-                </div>
-            </section>
-        </section>
+        <form id="form" class="topBefore">
+                
+                  <input id="name" type="text" placeholder="NAME">
+                  <input id="email" type="text" placeholder="E-MAIL">
+                  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+          <input id="submit" type="submit" value="GO!">
+          
+        </form>
     </main>
     <footer>
         <section class="footer">
             <div class="fResaux">
-                <img id="logoFooter" src="./../assets/image/logos.png" alt="" srcset="">
+                <img id="logoFooter" src="./../assets/image/logoMolenG.png" alt="" srcset="">
             </div>
             <div class="fLogo">
                 <img src="./../assets/image/facebook (2).png" alt="" srcset="">
@@ -84,7 +72,7 @@
 
 
 
-    <script type="module" src="./../js/coworking.js"></script>
+    <script type="module" src="./../js/formation.js"></script>
     <script src="./../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./../../node_modules/@popperjs/core/dist/umd/popper.js"></script>
 </body>
