@@ -1,16 +1,16 @@
 import data from './../json/molengeek.json' assert { type: "json" };
 
 
-let jobPoste = document.querySelectorAll(".notititle")
-let jobdDetail = document.querySelectorAll(".notibody")
+let poste = document.querySelectorAll(".notititle")
+let detail = document.querySelectorAll(".notibody")
 
-let jobData = data.jobs
+let datajobs = data.jobs
 
 let z = 0
 
-jobPoste.forEach(element => {
+poste.forEach(element => {
 
-    element.innerText = jobData[z].poste
+    element.innerText = datajobs[z].poste
 
     z++
 
@@ -18,9 +18,9 @@ jobPoste.forEach(element => {
 
 let m = 0
 
-jobdDetail.forEach(element => {
+detail.forEach(element => {
 
-    element.innerText = jobData[m].description
+    element.innerText = datajobs[m].description
 
     m++
 
