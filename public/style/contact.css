@@ -1,0 +1,52 @@
+footer {
+    height: 500px;
+  }
+  
+  .footer {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+  }
+  
+  .fResaux {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #logoFooter {
+    height: 90%;
+    background-color: transparent;
+  }
+  .fLogo {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .fLogo img {
+    background-color: transparent;
+  }
+  
+  .copyright {
+    height: 30%;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+  }
+  
+  .copyright h1 {
+    background-color: purple;
+    color: white;
+  }
+  .copyright span {
+    font-size: small;
+    background-color: purple;
+    color: white;
+  
+  }
