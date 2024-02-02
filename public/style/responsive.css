@@ -107,6 +107,66 @@
     padding-top: 50%;
     padding-bottom: 20%;
   }
+  .menuItem {
+    display: block;
+    margin: 0;
+    font-size: 0.5rem;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+.menuItem:hover {
+    text-decoration: underline;
+
+}
+
+.hamburger {
+    display: block !important;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    color: rgb(13, 108, 167);
+
+}
+
+.accueilButton img{
+    display: none;
+
+}
+
+.closeIcon {
+    display: none  ;
+    visibility: hidden;
+
+}
+
+.parentNavBar {
+    position: fixed;
+    transform: translateY(-200%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: rgb(64, 0, 99);
+    color: white;
+    list-style: none;
+    padding-top: 1rem;
+    flex-direction: column;
+
+}
+
+.showMenu {
+    transform: translateY(0);
+
+}
 
   .bannerRight {
     width: 75%;
